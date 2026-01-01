@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function Marquee() {
+function Animated_scroller() {
   return (
     <div
       data-scroll
@@ -39,4 +39,4 @@ function Marquee() {
   );
 }
 
-export default Marquee;
+export default Animated_scroller;

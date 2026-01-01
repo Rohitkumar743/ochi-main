@@ -1,13 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import Marquee from "./components/Marquee";
-import About from "./components/What_We_Offer";
 import Eyes from "./components/Eyes";
-import Featured from "./components/Featured";
-import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
+import Animated_scroller from "./components/Animated_Scroller";
+import What_We_Offer from "./components/What_We_Offer";
+import AboutUs from "./components/AboutUs";
+import TestimoniaSection from "./components/TestimoniaSection";
+import PricingSection from "./components/PricingSection";
+import FAQsSection from "./components/FAQsSection";
+import ResourcesSection from "./components/ResourcesSection";
+import ContactUs from "./components/ContactUs";
+import ProblemSolutionSection from "./components/ProblemSolutionSection";
 
 function App() {
   // Locomotive Scroll
@@ -22,11 +27,16 @@ function App() {
     <div className="w-full min-h-screen bg-zinc-900 text-white">
       <Navbar />
       <HeroSection />
-      <Marquee />
-      <About />
-      <Eyes />
-      <Featured />
-      <Cards />
+      <Animated_scroller />
+      <What_We_Offer />
+      <ProblemSolutionSection/>
+      <AboutUs/>
+      {/* <Eyes /> */}
+      <TestimoniaSection/>
+      <PricingSection/>
+      <FAQsSection/>
+      <ResourcesSection/>
+      <ContactUs/>
       <Footer />
     </div>
   );

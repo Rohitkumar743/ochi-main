@@ -9,6 +9,7 @@ function HeroSection() {
       data-scroll-section
       data-scroll-speed="-0.3"
       className="container w-full"
+      id="home"
     >
       <div className="textstructure py-[10vh]">
         {["Empowering ", "Students One ", "Mentor at a time!"].map((item, index) => (

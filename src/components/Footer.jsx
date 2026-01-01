@@ -4,10 +4,10 @@ import { FaArrowUpLong } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="w-full h-fit bg-[#1d1f1e]">
+    <div className="w-full h-fit ">
       <div className="container md:flex-row flex flex-col py-10">
         <div className="md:w-1/2 w-full flex gap-3 ">
-          <img src={Logo} className="w-12 lg:mb-36 hidden md:block bg-[#1d1f1e]" alt="Vidhyom logo" />
+          <img src={Logo} className="w-12 lg:mb-36 hidden md:block " alt="Vidhyom logo" />
           <h1 className="font-FoundersGroteskCondensed uppercase text-6xl">
             Vidhyom 
           </h1>
@@ -35,6 +35,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
